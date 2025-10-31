@@ -114,7 +114,7 @@ Add the route in `victorimagery/src/router/index.js`:
   component: () => import(/* webpackChunkName: "about" */ '../views/new-photos.vue')
 },
 ```
-
+Next, run the `npm install` and `npm run serve` commands to preview the result.
 ### Project Setup
 
 #### Installation
@@ -136,6 +136,17 @@ npm run build
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ---
+
+### Acknowledgements
+
+#### Image Resources
+All demonstration images are sourced from [Unsplash](https://unsplash.com/) - Free high-quality image sharing platform
+
+#### Learning Resources
+Page transition animations are inspired by B站 creator [@JIEJOE_轻敲代码](https://space.bilibili.com/3546390319860710)'s tutorial:
+
+**Video**: 【Your website might be one step away from being advanced - a page transition animation?】  
+[https://www.bilibili.com/video/BV1Nk4y1Q7pk/](https://www.bilibili.com/video/BV1Nk4y1Q7pk/)
 
 ## 中文 <a id="中文"></a>
 
@@ -247,7 +258,7 @@ coverImages: [
   component: () => import(/* webpackChunkName: "about" */ '../views/new-photos.vue')
 },
 ```
-
+接下来运行`npm install`和`npm run serve`指令就可以预览了。
 ### 项目初始化
 
 #### 安装依赖
@@ -267,3 +278,18 @@ npm run build
 
 #### 自定义配置
 详见 [配置参考](https://cli.vuejs.org/config/)。
+
+---
+
+### 资源致谢
+
+#### 图片来源
+所有展示图片均来源于 [Unsplash](https://unsplash.com/) - 免费的高质量图片分享网站
+
+#### 参考教程
+页面跳转动画参考了 B站UP主 [@JIEJOE_轻敲代码](https://space.bilibili.com/3546390319860710) 的教程：
+
+**视频**: 【你的网站或许离高级，还差一个跳转动画？】  
+[https://www.bilibili.com/video/BV1Nk4y1Q7pk/](https://www.bilibili.com/video/BV1Nk4y1Q7pk/)
+
+### 
